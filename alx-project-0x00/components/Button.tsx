@@ -1,7 +1,4 @@
-interface ButtonProps {
-  title: string;
-  style: string;
-}
+import { ButtonProps } from "@/interfaces";
 
 export const Button: React.FC<ButtonProps> = ({title, style}) => {
 return (

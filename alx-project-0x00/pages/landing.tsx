@@ -5,37 +5,11 @@ const Landing: React.FC = () => {
     <div>
       <h1 className="text-xl font-extralight">Landing Page</h1>
       <Card />
-      <Button title="Click me" style="rounded-sm border border-white md:rounded-md lg:rounded-full" />
+      <Button title="small" style="rounded-sm" />
       <Card />
-      <Button title="Click me" style="rounded-sm border border-white md:rounded-md lg:rounded-full" />
+      <Button title="medium" style="md:rounded-md " />
       <Card />
-      <Button title="Click me" style="rounded-sm border border-white md:rounded-md lg:rounded-full" />
-      <Card />
-      <Button title="Click me" style="rounded-sm border border-white md:rounded-md lg:rounded-full" />
-      <Card />
-      <Button title="Click me" style="rounded-sm border border-white md:rounded-md lg:rounded-full" />
-      <Card />
-      <Button title="Click me" style="rounded-sm border border-white md:rounded-md lg:rounded-full" />
-      <Card />
-      <Button title="Click me" style="rounded-sm border border-white md:rounded-md lg:rounded-full" />
-      <Card />
-      <Button title="Click me" style="rounded-sm border border-white md:rounded-md lg:rounded-full" />
-      <Card />
-      <Button title="Click me" style="rounded-sm border border-white md:rounded-md lg:rounded-full" />
-      <Card />
-      <Button title="Click me" style="rounded-sm border border-white md:rounded-md lg:rounded-full" />
-      <Card />
-      <Button title="Click me" style="rounded-sm border border-white md:rounded-md lg:rounded-full" />
-      <Card />
-      <Button title="Click me" style="rounded-sm border border-white md:rounded-md lg:rounded-full" />
-      <Card />
-      <Button title="Click me" style="rounded-sm border border-white md:rounded-md lg:rounded-full" />
-      <Card />
-      <Button title="Click me" style="rounded-sm border border-white md:rounded-md lg:rounded-full" />
-      <Card />
-      <Button title="Click me" style="rounded-sm border border-white md:rounded-md lg:rounded-full" />
-      <Card />
-      <Button title="Click me" style="rounded-sm border border-white md:rounded-md lg:rounded-full" />
+      <Button title="large" style="rounded-full" />
     </div>
   );
 };
