@@ -1,11 +1,12 @@
 import { ButtonProps } from "@/interfaces";
 
-export const Button: React.FC<ButtonProps> = ({title, style}) => {
+export const Button: React.FC<ButtonProps> = ({title, styles}) => {
 return (
     <div>
-        <button className={style}>
+        <button className={styles}>
             {title}
         </button>
     </div>
 )
 }
+export default Button;
